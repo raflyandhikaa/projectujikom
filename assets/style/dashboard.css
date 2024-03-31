@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.btn-logout {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-logout:hover {
+    background-color: #cc0000;
+}
+.dashboard-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.dashboard-content h2 {
+    color: #333;
+}
+.dashboard-content p {
+    color: #666;
+}
+.text-blue-500 {
+    color: #0052cc;
+}
+.text-blue-500:hover {
+    text-decoration: underline;
+}

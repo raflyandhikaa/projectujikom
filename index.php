@@ -14,7 +14,7 @@ require_once('./db/DB_login.php');
 </head>
 <body>
     <div class="container">
-        <img style="width: 100px; margin-bottom: 2rem;" src="./assets/images/pigmy.png" alt="btr">
+        <img style="width: 100px; margin-bottom: 2rem;" src="./assets/images/logo.png" alt="btr">
         <form method="POST">
             <?php if (isset($error_message)) : ?>
                 <div class="error-message"><?php echo $error_message; ?></div>
