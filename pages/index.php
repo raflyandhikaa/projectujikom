@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GANI</title>
+    <title>RESK</title>
     <style>
         body {
             font-family: Arial, sans-serif;
