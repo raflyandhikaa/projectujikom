@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 100;
     padding: 100;
-    background-color: #f0f0f0;
+    background-color: #ebe7e7;
     text-align: center;
 }
 .container {
@@ -23,7 +23,7 @@ body {
     background-color: #cc0000;
 }
 .dashboard-content {
-    background-color: #fff;
+    background-color: #ebe7e7;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -32,7 +32,7 @@ body {
     color: #333;
 }
 .dashboard-content p {
-    color: #666;
+    color: #333;
 }
 .text-blue-500 {
     color: #0052cc;

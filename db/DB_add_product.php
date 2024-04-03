@@ -20,7 +20,7 @@ if(isset($_POST['add_product'])) {
     }
 
     $stmt->close();
-    $stmt->close();
+    $conn->close();
     header('Location: ../pages/kasir/manage_product.php');
 }
 ?>

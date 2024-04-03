@@ -28,10 +28,8 @@ $realName = $_SESSION['nama'];
     <h2>Dashboard</h2>
     <p>Welcome to the RESK SHOES WEB dashboard. you can manage product and perform other tasks here.</p>
     </div>
-    <div class="dashboard-content">
-    <h2>Manage Product</h2>
-    <p>Would you like ro manage product</p>
-    <p><a href="./kasir/manage_product.php" class="text-blue-500 hover:underline">Click here</a></p>
-    </div>
+    <center>
+        <img style="width: 250px; margin-bottom: 2rem; " src="../../assets/images/resk.jpeg" alt="RESK">
+    </center>
 </body>
 </html>

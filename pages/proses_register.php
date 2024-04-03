@@ -5,7 +5,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "database_toko";
+$dbname = "db_cashier";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check the connection

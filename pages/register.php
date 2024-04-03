@@ -23,7 +23,7 @@
         .logo {
             display: block;
             margin: 0 auto 2rem;
-            width: 100px;
+            width: 80px;
         }
         form {
             display: flex;
@@ -57,11 +57,16 @@
             color: #333;
             text-decoration: none;
         }
+        .logo img {
+            width: 80px; /* Ukuran gambar yang lebih kecil */
+            display: block;
+            margin: 5 auto; /* Menempatkan gambar di tengah */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://media.discordapp.net/attachments/1199739265312112741/1206934935705747556/login-icon-3048.png?ex=65ddd0c0&is=65cb5bc0&hm=b34037a2264f13deb3b226fc312bb4d68cae5bd8cf8da420f21049dad6f2b08f&=&format=webp&quality=lossless&width=637&height=637" alt="Logo" class="logo">
+        <img src="../assets/images/resk.jpeg" alt="RESK" class="RESK">
         <form method="POST" action="proses_register.php">
             <label for="nama">Nama</label>
             <input id="nama" name="nama" type="text" placeholder="Nama" required>
@@ -71,7 +76,7 @@
             <input id="password" name="password" type="password" placeholder="Password" required>
             <button type="submit">Register</button>
             <div class="create-account">
-                <p>Sudah punya akun? <a href="login.php">CLICK DI SINI</a></p>
+                <p>Sudah punya akun? <a href="login.php">Click Disini</a></p>
             </div>
         </form>
     </div>
