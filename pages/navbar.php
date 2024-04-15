@@ -10,7 +10,6 @@
 <nav class="navbar">
     <div class="container">
     <div class="logo">
-            <img src="../../assets/images/resk.jpeg" alt="RESK">
         </div>
         <div class="menu">
             <ul>
